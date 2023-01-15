@@ -1,0 +1,9 @@
+post_install() {
+  if [[ $? -eq 0 ]]; then
+    udevadm control --reload && udevadm trigger
+  else
+    echo "You need to reload udev rules; run:"
+    echo "sudo udevadm control --reload && sudo udevadm trigger"
+  fi
+}
+
