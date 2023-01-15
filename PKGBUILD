@@ -1,5 +1,5 @@
 pkgname=blink1
-pkgver=2.2.0
+pkgver=2.3.0
 pkgrel=1
 pkgdesc='software for blink(1) USB RGB LED'
 arch=('i686' 'x86_64')
